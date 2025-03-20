@@ -5,8 +5,7 @@ import 'package:http/http.dart' as http;
 import 'dart:convert';
 import 'package:uuid/uuid.dart';
 
-// Replace with your Render.com URL
-const String serverUrl = 'https://your-app-name.onrender.com';
+const String serverUrl = 'https://your-service-name.onrender.com'; // Replace with your Render URL
 
 final FlutterLocalNotificationsPlugin flutterLocalNotificationsPlugin =
     FlutterLocalNotificationsPlugin();
